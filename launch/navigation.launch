@@ -5,5 +5,5 @@
   <!-- Launch other launch files -->
   <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch" />
   <include file="$(find turtlebot3_teleop)/launch/turtlebot3_teleop_key.launch" />
-  <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch" />
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch" />
 </launch>
